@@ -64,7 +64,7 @@ const Login = () => {
     return (
         <>
             <Heading navLinks={false} />
-            <div className="rounded-md w-80 login-container absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+            <div className="rounded-md w-1/3 h-1/2 login-container absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                 <div className="border-teal p-8 border-t-12 mb-6 rounded-lg shadow-lg bg-transparent">
                     <div className="mb-4">
                         <label className="font-bold text-grey-darker block mb-2">Email</label>
