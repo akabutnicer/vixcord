@@ -5,7 +5,21 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'width': 'width'
+      },
+      spacing: {
+        '17': '65px'
+      },
+      fontSize: {
+        xxs: '11px'
+      }
+    },
   },
-  plugins: [],
+
+  plugins: [
+    require("@tailwindcss/forms")
+  ],
 }
+
