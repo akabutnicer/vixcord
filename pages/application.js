@@ -239,8 +239,10 @@
         <motion.div variants={fade} className="flex flex-col px-3 items-center w-96 h-screen acrylic">
           <motion.div className="w-full mt-4 h-11 rounded-lg acrylic searchBg flex flex-row items-center">
             <iconify-icon icon="material-symbols:search-rounded" class="fg-grey relative left-3 mr-5" width="23" height="23"></iconify-icon>
-            <input className="font-roboto placeHolderText graygray focus:outline-none focus:border-0" />
-            <div className="keybindBlock w-14 h-6 items-center ml-auto justify-center flex rounded mr-3">
+ <input
+            className="fg-grey border-0 max-w-[250px] border-transparent focus:border-transparent focus:ring-0 overflow-x-auto min-width bg-transparent focus:outline-none overflow-y-hidden whitespace-nowrap font-roboto placeHolderText"
+            placeholder="Search..."
+          />            <div className="keybindBlock w-14 h-6 items-center ml-auto justify-center flex rounded mr-3">
               <p className="text-sm font-boldroboto">Ctrl K</p>
             </div>
           </motion.div>
