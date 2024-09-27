@@ -81,7 +81,7 @@ const Login = () => {
                         <label className="font-bold text-grey-darker block mb-2">Password</label>
                         <input
                             type="password"
-                            className="block appearance-none w-full outline-none border border-grey-light hover:border-grey px-2 py-2 rounded shadow"
+                            className="block bg-indigo-700 w-full outline-none border border-grey-light hover:border-grey px-2 py-2 rounded shadow"
                             placeholder="Your password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
