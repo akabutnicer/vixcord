@@ -1,4 +1,6 @@
-import '~/styles/style.scss'
+import '~/styles/style.css'
+import '~/styles/base.css'
+
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import UserContext from 'lib/UserContext'
@@ -24,16 +26,13 @@ export default function SupabaseSlackClone({ Component, pageProps }) {
       }
       setUser(currentUser ?? null)
       setUserLoaded(!!currentUser)
-      if (currentUser) {
-        router.push('/channels/[id]', '/channels/1')
-      }
+
     }
 
     supabase.auth.getSession().then(({ data: { session } }) => saveSession(session))
 
     const { subscription: authListener } = supabase.auth.onAuthStateChange(
       async (event, session) => {
-        console.log(session)
         saveSession(session)
       }
     )
