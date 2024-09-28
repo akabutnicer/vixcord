@@ -96,14 +96,14 @@ const Login = () => {
                                 handleLogin('LOGIN', username, password)
                             }}
                             href={'/application'}
-                            className="border border-indigo-700 text-indigo-700 py-2 px-4 rounded w-full text-center transition duration-150 hover:bg-indigo-700 hover:text-white"
+                            className="border border-[#e59cff] text-indigo-700 py-2 px-4 rounded w-full text-center transition duration-150 hover:bg-indigo-700 hover:text-white"
                         >
                             Login
                         </a>
-                                <a
-                href="#"
-                onclick="void(0)"
-                class="hero-subtitle-gradient hover:hero-subtitle-hover relative mb-5 font-medium text-sm inline-flex items-center gap-2 py-2 px-4.5 rounded-full"
+                        <a
+                             href="#"
+                             onclick="void(0)"
+                             class="relative before:transition-transform before:content-none before:absolute before:top-full before:w-full before:bg-[#e59cff] before:transform before:scale-0 hover:before:scale-1"
               >
                 <span class="hero-subtitle-text">
 Your simple, fun, and sleek communication companion!                </span>
