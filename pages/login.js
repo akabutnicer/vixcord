@@ -115,7 +115,7 @@ const Login = () => {
                 e.preventDefault();
                 handleLogin("LOGIN", username, password);
               }}
-              class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-center text-white font-medium ease-in duration-300 hover:opacity-80"
+              class="hero-button-gradient justify-centerinline-flex rounded-lg py-3 px-7 text-center text-white font-medium ease-in duration-300 hover:opacity-80"
             >
                 Signup
             </a>
