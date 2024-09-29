@@ -74,7 +74,7 @@ const Login = () => {
     <>
       <Heading navLinks={false} />
       <div className="rounded-md lg:w-[512px] md:w-96 sm:w-80 login-container absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-        <div className="relative overflow-auto border-teal p-8 border-t-12 mb-6 rounded-lg bg-transparent">
+        <div className="relative overflow-auto mx-auto border-teal p-8 border-t-12 mb-6 rounded-lg bg-transparent">
           <div className="mb-4">
             <label className="font-bold text-grey-darker block mb-2">
               Email
