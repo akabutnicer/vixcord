@@ -79,7 +79,7 @@ const Login = () => {
             <label className="font-bold text-grey-darker block mb-2">
               Email
             </label>
-            <div class="max-w-[395px] space-x-2 space-x-reverse h-12 rounded-lg flex justify-center items-center w-full border border-white/[0.12] bg-white/[0.05]">
+            <div class="max-w-[395px] space-x-reverse h-12 rounded-lg flex justify-center items-center w-full border border-white/[0.12] bg-white/[0.05]">
               <input
                 id="email"
                 type="email"
