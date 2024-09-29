@@ -87,7 +87,7 @@ const Login = () => {
                 placeholder="Enter your Email"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                class=" rounded-lg bg-transparent w-full py-1 px-6 [outline:none]"
+                class=" rounded-lg bg-transparent w-full py-1 px-6 !outline-none"
               />
             </div>
           </div>
@@ -97,13 +97,13 @@ const Login = () => {
             </label>
             <div class="max-w-[395px] space-x-2 space-x-reverse h-12 rounded-lg flex justify-center items-center w-full border border-white/[0.12] bg-white/[0.05]">
               <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Enter your Email"
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                class=" rounded-lg bg-transparent w-full py-1 px-6 [outline:none]"
+                class=" rounded-lg bg-transparent w-full py-1 px-6 !outline-none"
               />
             </div>
           </div>
@@ -119,7 +119,7 @@ const Login = () => {
             >
               Login
             </a>
-            <span>
+            <span class="flex space-x-2">
                 <span class="text-gray">Don't have an account?</span>
               <a
                 href="/signup"
