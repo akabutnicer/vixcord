@@ -74,7 +74,7 @@ const Login = () => {
     <>
       <Heading navLinks={false} />
       <div className="rounded-md lg:w-[512px] md:w-96 sm:w-80 login-container absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-        <div className="relative overflow-auto border-teal p-8 border-t-12 mb-6 rounded-lg900 bg-transparent">
+        <div className="relative overflow-auto border-teal p-8 border-t-12 mb-6 rounded-lg bg-transparent">
           <div className="mb-4">
             <label className="font-bold text-grey-darker block mb-2">
               Email
@@ -87,9 +87,7 @@ const Login = () => {
                 placeholder="Enter your Email"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                style={{ outline: "none !important" }}
-
-                class=" rounded-lg bg-transparent w-full py-1 px-6 !outline-none"
+                class=" rounded-lg bg-transparent w-full py-1 px-6 outline-none focus:outline-none border-0 border-transparent focus:border-transparent"
               />
             </div>
           </div>
@@ -105,8 +103,7 @@ const Login = () => {
                 placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                style={{ outline: "none !important" }}
-                class=" rounded-lg bg-transparent w-full py-1 px-6 !outline-none"
+                class=" rounded-lg bg-transparent w-full py-1 px-6 outline-none focus:outline-none border-0 border-transparent focus:border-transparent"
               />
             </div>
           </div>
