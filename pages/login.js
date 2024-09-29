@@ -110,25 +110,23 @@ const Login = () => {
 
           <div className="flex flex-col gap-2">
             <a
+              href="/application"
               onClick={(e) => {
                 e.preventDefault();
                 handleLogin("LOGIN", username, password);
               }}
-              href={"/application"}
-              className="border bg-[#e59cff] text-indigo-700 py-2 px-4 rounded w-full text-center transition duration-150 hover:brightness-90 hover:text-white"
+              class="hero-button-gradient inline-flex rounded-lg py-3 px-7 text-white font-medium ease-in duration-300 hover:opacity-80"
             >
-              Login
+                Signup
             </a>
             <span class="flex space-x-2">
-                <span class="text-gray">Don't have an account?</span>
+              <span class="text-gray">Don't have an account?</span>
               <a
-                href="/signup"
+                href="/register"
                 onclick="void(0)"
                 class="relative hover:underline p-0"
               >
-                <span class="hero-subtitle-text">
-                  Register
-                </span>
+                <span class="hero-subtitle-text">Register</span>
               </a>
             </span>
           </div>
