@@ -17,6 +17,9 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
     -webkit-text-fill-color: rgb(145, 142, 160) !important;
 }
+.input {
+   color: rgb(145, 142, 160)
+}
 .channel-list li a:hover {
   opacity: 0.9;
 }
