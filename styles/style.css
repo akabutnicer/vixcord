@@ -10,7 +10,9 @@ body,
   margin: 0;
   padding: 0;
 }
-
+*:-webkit-autofill {
+    background-color: blue !important;
+}
 .channel-list li a:hover {
   opacity: 0.9;
 }
