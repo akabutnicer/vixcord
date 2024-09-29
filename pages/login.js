@@ -87,7 +87,7 @@ const Login = () => {
                 placeholder="Enter your Email"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                class=" rounded-lg bg-transparent w-full py-1 px-6 outline-none"
+                class=" rounded-lg bg-transparent w-full py-1 px-6 [outline:none]"
               />
             </div>
           </div>
@@ -103,7 +103,7 @@ const Login = () => {
                 placeholder="Enter your Email"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                class=" rounded-lg bg-transparent w-full py-1 px-6 outline-none"
+                class=" rounded-lg bg-transparent w-full py-1 px-6 [outline:none]"
               />
             </div>
           </div>
